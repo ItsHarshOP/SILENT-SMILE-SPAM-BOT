@@ -97,7 +97,7 @@ boy = ""
 
 que = {}
 
-SMEX_USERS = [5275980328]
+SMEX_USERS = [5232249165]
 for x in SUDO: 
     SMEX_USERS.append(x)
     
@@ -1318,11 +1318,11 @@ async def spam(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃 💫"
+        text = "𝐒𝐈𝐋𝐄𝐍𝐓 𝐒𝐌𝐈𝐋𝐄💫"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🔥𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃 !\n`{ms}` 𝗺𝘀\n𝐌𝐀𝐇𝐀𝐊𝐀𝐋_𝐗𝐃_𝐒𝐏𝐀𝐌 👹🔥\n ")
+        await event.edit(f"🔥𝐒𝐈𝐋𝐄𝐍𝐓 𝐒𝐌𝐈𝐋𝐄 !\n`{ms}` 𝗺𝘀\n 𝐒𝐈𝐋𝐄𝐍𝐓 𝐒𝐌𝐈𝐋𝐄 𝐒𝐏𝐀𝐌 👹🔥\n ")
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1524,7 +1524,7 @@ async def help(e):
         
 text = """
 ⚜️ 𝙂𝙤 𝘿𝙤 .𝙥𝙞𝙣𝙜 𝙖𝙩 @mahakalspamcontrolroom ⚜️
-💥𝗕𝗬 @Nobi_xxd 💥"""
+💥𝗕𝗬 @the_silentsmile 💥"""
 
 print(text)
 print("")
