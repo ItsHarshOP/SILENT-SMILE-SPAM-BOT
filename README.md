@@ -19,7 +19,7 @@
 
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ItsHarshOP/SILENT-SMILE-SPAM-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ItsHarshOP/SILENT-SMILE-SPAMBOT)
 ------------------------------------------------
 
 ### 🖇️ String session ⚡
